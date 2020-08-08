@@ -20,3 +20,5 @@ writer.SetArrayName("colors")
 writer.Write()
 ```
 Note: "colors" variable name defined by N-Cube ParaView plugin.
+
+![](ParaView_export_ply.png)
