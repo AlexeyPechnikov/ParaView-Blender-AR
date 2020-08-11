@@ -1,6 +1,6 @@
 # ParaView data export
 
-## Export DEM surface with image on it as .PLY file
+## Export DEM surface with RGB image on it as .PLY file
 
 Unfortunately, there is ParaView bug with .PLY format export coloring and so it's not possible to just save .PLY file and open it in Blender. See for details [PLY export with color with Scalar](https://discourse.paraview.org/t/ply-export-with-color-with-scalar/1804/21)
 
@@ -22,3 +22,9 @@ writer.Write()
 Note: "colors" variable name defined by N-Cube ParaView plugin.
 
 ![](ParaView_export_ply.png)
+
+## Export colored isosurfaces
+
+Use export as PLY feature with color checkbox selected. The output file is not valid due to NaN coordinates and other issues in it. Use [MeshLab](https://www.meshlab.net/) software to import the ParaView output PLY and export the correct one.
+
+![](ParaView_export_ply2.png)
