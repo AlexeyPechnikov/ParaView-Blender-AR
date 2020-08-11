@@ -25,6 +25,6 @@ Note: "colors" variable name defined by N-Cube ParaView plugin.
 
 ## Export colored isosurfaces
 
-Use export as PLY feature with color checkbox selected. The output file is not valid due to NaN coordinates and other issues in it. Use [MeshLab](https://www.meshlab.net/) software to import the ParaView output PLY and export the correct one.
+Use export as PLY feature with "Enable Coloring" checkbox selected. The output file is not valid due to NaN coordinates and other issues in it. Use [MeshLab](https://www.meshlab.net/) software to import the ParaView output PLY and export the correct one.
 
 ![](ParaView_export_ply2.png)
