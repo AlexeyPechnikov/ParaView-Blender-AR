@@ -46,6 +46,9 @@ ParaView and Blender compatible not colored surfaces (.STL) for models:
   * [GEBCO12_47.stl](GEBCO12_47.stl) - Lahendong geothermal reservoir (productive)
   * [GEBCO12_4548.stl](GEBCO12_4548.stl) - buffer zone around Lahendong geothermal reservoir (not productive)
 
+ParaView and QGIS compatible regridded ALOS Global Digital Surface Model ALOS World 3D 30m:
+  * [ALOS_AW3D30_v1903_Lahendong_50m_32651.tif](ALOS_AW3D30_v1903_Lahendong_50m_32651.tif)
+
 ## References (see also local copies of the papers)
 
   * [Eben Ezer Siahaan and etc. «Tectonism and Volcanism Study in the Minahasa Compartment of the North Arm of Sulawesi Related to Lahendong Geothermal Field, Indonesia». Proceedings World Geothermal Congress 2005](https://pdfs.semanticscholar.org/0921/202ed144d74a7d28d6d3a815ab88c3eb9477.pdf)
