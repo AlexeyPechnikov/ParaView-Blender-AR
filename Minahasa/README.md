@@ -1,7 +1,7 @@
 # Tambora Volcano
 
-Here are meshes exported from ParaView and prepared for Blender project for Minahasa Compartment of the North Arm of Sulawesi Island, #Indonesia.
-For the modeling we use GEBCO 2020 Bathymetry and Sentinel-2 Satellite images processed on Google Earth Engine.
+Here are meshes exported from ParaView and prepared for Blender project for Geothermal Model for Minahasa Compartment and Lahendong Geothermal Field on the North Arm of Sulawesi Island, Indonesia.
+For the modeling we use GEBCO 2019/2020 Bathymetry and Landsat-8/Sentinel-2 Satellite images processed on Google Earth Engine.
 
 ![](BlenderLahendong.jpg)
 
