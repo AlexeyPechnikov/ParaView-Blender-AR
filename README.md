@@ -12,3 +12,4 @@ Click on picture below to watch YouTube videos:
 
   * [BVKTNodes Addon for Blender](https://bvtknodes.readthedocs.io/en/latest/BVTKNodes.html)
   * [AMD Radeon™ ProRender for Blender®](https://www.amd.com/ru/technologies/radeon-prorender-blender)
+  * [Blender GIS](https://github.com/domlysz/BlenderGIS)
