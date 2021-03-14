@@ -36,6 +36,7 @@ Export from Blender using glTF 2.0 format plus baked UV Images (Bake Type "Diffu
 usdzconvert Minahasa08.glb \
   -m Material.GEBCO12_47_Reservoir -diffuseColor GEBCO12\ 47\ Reservoir.png -opacity 0.7 \
   -m Material.measurements_temp_new -diffuseColor "measuments_temp_large".png \
+  -metersPerUnit 1 \
   Minahasa08.usdz
 ```
 
