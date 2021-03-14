@@ -33,12 +33,13 @@ See the required software by this link: [AR Creation Tools](https://developer.ap
 
 Export from Blender using glTF 2.0 format plus baked UV Images (Bake Type "Diffuse" with Influence Contributions "Color" only for Diffuse BSDF shader)and convert them as
 ```
-convert UVImage.png -evaluate Multiply 5 UVImage.2.png
-usdzconvert /Users/mbg/torrent/Minahasa08.glb -diffuseColor UVImage.2.png
+usdzconvert Minahasa08.glb \
+  -m Material.GEBCO12_47_Reservoir -diffuseColor GEBCO12\ 47\ Reservoir.png -opacity 0.7 \
+  -m Material.measurements_temp_new -diffuseColor "measuments_temp_large".png \
+  Minahasa08.usdz
 ```
-Here we need to increase exposure because there are no lighing sources in Reality Converter app.
 
-Use this script to launch command-line "usdzconvert" tool from Apple "USDZ Tools" pack:
+Create this script to launch command-line "usdzconvert" tool from Apple "USDZ Tools" pack:
 ```
 cat > /usr/local/bin/usdzconvert << EOF
 #!/bin/sh
