@@ -29,7 +29,7 @@ Use export as PLY feature with "Enable Coloring" checkbox selected. The output f
 
 ## Blender export to Reality Converter
 
-See the required software by this link: [AR Creation Tools](https://developer.apple.com/augmented-reality/tools/)
+See the required software by this link: [AR Creation Tools](https://developer.apple.com/augmented-reality/tools/) and the documentation [Creating 3D Content with Reality Composer](https://developer.apple.com/documentation/realitykit/creating_3d_content_with_reality_composer)
 
 Export from Blender using glTF 2.0 format plus baked UV Images and convert them as
 ```
