@@ -46,5 +46,5 @@ cat /usr/local/bin/usdzconvert
 # https://developer.apple.com/augmented-reality/tools/
 export PATH="/Applications/usdpython/usdzconvert:$PATH"
 export PYTHONPATH="/Applications/usdpython/USD/lib/python/:$PYTHONPATH"
-usdzconvert
+usdzconvert "$@"
 ```
