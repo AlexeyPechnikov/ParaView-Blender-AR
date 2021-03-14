@@ -31,7 +31,7 @@ Use export as PLY feature with "Enable Coloring" checkbox selected. The output f
 
 See the required software by this link: [AR Creation Tools](https://developer.apple.com/augmented-reality/tools/) and the documentation [Creating 3D Content with Reality Composer](https://developer.apple.com/documentation/realitykit/creating_3d_content_with_reality_composer)
 
-Export from Blender using glTF 2.0 format plus baked UV Images and convert them as
+Export from Blender using glTF 2.0 format plus baked UV Images (Bake Type "Diffuse" with Influence Contributions "Color" only)and convert them as
 ```
 convert UVImage.png -evaluate Multiply 5 UVImage.2.png
 usdzconvert /Users/mbg/torrent/Minahasa08.glb -diffuseColor UVImage.2.png
