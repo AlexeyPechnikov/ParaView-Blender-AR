@@ -41,7 +41,6 @@ Here we need to increase exposure because there are no lighing sources in Realit
 Use this script to launch command-line "usdzconvert" tool from Apple "USDZ Tools" pack:
 ```
 cat > /usr/local/bin/usdzconvert << EOF
-
 #!/bin/sh
 # https://developer.apple.com/augmented-reality/tools/
 export PATH="/Applications/usdpython/usdzconvert:\$PATH"
