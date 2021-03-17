@@ -8,6 +8,8 @@ src.appendChild(this.img);
 
 ## Augmented Reality (AR) geological model of Lahendong Geothermal Reservoir on Minahasa Compartment, North Sulawesi, Indonesia
 
+Published Lahendong Well Temperatures mapped as blue (below 150°C), white (between 150-250°C), red (up to 350°C). Our geological inversion model built by custom software and processed in ParaView and post-prorecessed in Blender to build the AR scene. Here we clearly see drill holes outside of the reservoir which are cold (blue). The model allows to correct new drill locations to take the most advantage of Indonesia geothermal potential.
+
 <!-- Import the component -->
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <style>
