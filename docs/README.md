@@ -7,7 +7,7 @@ model-viewer {
 }
 </style>
 
-<!-- Change left block -->
+<!-- Setup title and logo -->
 <script>
 document.querySelector("header h1").textContent = '21st Geology'
 this.img = document.createElement("img");
