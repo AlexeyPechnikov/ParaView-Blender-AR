@@ -2,8 +2,8 @@
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <style>
 model-viewer {
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
 }
 </style>
 
