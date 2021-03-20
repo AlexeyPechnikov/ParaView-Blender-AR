@@ -44,4 +44,4 @@ We use published Lahendong well temperatures (see links on our GitHub repository
     ar-modes="webxr scene-viewer quick-look fallback"
     camera-controls
     alt="3D model"
-></div>
+/></div>
