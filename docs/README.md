@@ -7,16 +7,6 @@ model-viewer {
 }
 </style>
 
-<!-- Setup title and logo -->
-<script>
-document.querySelector("header h1").textContent = '21st Geology'
-this.img = document.createElement("img");
-this.img.style.cssText = 'width: 85%';
-this.img.src = "https://avatars.githubusercontent.com/u/7342379?s=460&u=37e514700d78db61a39b9b298b7e70b63b1f390a&v=4";
-src = document.querySelector("p.view");
-src.appendChild(this.img);
-</script>
-
 ## Augmented Reality (AR) Geological Model of Tambora Volcano Structure, Sumbawa, Indonesia
 
 This geological density inversion model built by custom software and processed in ParaView and post-prorecessed in Blender to build the AR scene. Here we are able to see Tambora volcano magma cameras and connections to neighboring Rinjani volcano. See our GitHub page [Minahasa project](https://github.com/mobigroup/ParaView-Blender-AR/tree/master/Tambora) and YouTube video [Blender Tambora Volcano Structural Model and Plume Simulation, Indonesia](https://www.youtube.com/watch?v=0rp30Ez1s1Y)
